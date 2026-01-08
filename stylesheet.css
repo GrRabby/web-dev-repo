@@ -181,25 +181,38 @@ nav .menu a{
     font-size: 30px;
     font-weight: bold;
     color: #474747;
-    margin-bottom: 20px;
+    margin-bottom: 30px; 
 }
-.education-card-container {
+.education-card-container,.experience-card-container {
     max-width: 511px;
     max-height: 175px;
     text-align: left;
     display: flex;
     flex-direction: column;
+    margin-right: 47px;
 }
 .education-card-container h2,.experience-card-container h2 {
     font-size: 25px;
     color: #474747;
     font-weight: bold;
+    margin-bottom: 10px;
 }
-.education-card-container,.experience-card-container h4 {
+.education-card-container h4,.experience-card-container h4 {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
 }
+.education-card-container p, .experience-card-container p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
 .resume-container {
+    margin-top: 113px;
     display: flex;
+    gap: 24px;
+}
+.resume-container hr {
+    margin: 30px 0;
 }
