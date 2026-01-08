@@ -36,6 +36,7 @@
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
 }
 header {
      background-color: #FFF8F3;
@@ -173,9 +174,32 @@ nav .menu a{
     font-weight: bold;
 }
 .section-resume {
-    background-color: #FFF8F3;
     max-width: 1140px;
-    margin: 130px auto;
-    text-align: center;
-    padding: 131px 156px;
+    margin: 0px auto;
+}
+.section-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.education-card-container {
+    max-width: 511px;
+    max-height: 175px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.education-card-container h2,.experience-card-container h2 {
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+}
+.education-card-container,.experience-card-container h4 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-container {
+    display: flex;
 }
