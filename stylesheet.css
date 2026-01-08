@@ -38,12 +38,15 @@
     font-weight: bold;
     text-align: center;
 }
+.banner-content-buttons button {
+    margin-right: 30px;
+}
 header {
      background-color: #FFF8F3;
      background: url("developer.png") , url("header_bg.png") , #FFF8F3;
      padding-top: 50px;
      background-repeat: no-repeat;
-     background-position: top left,bottom right;
+     background-position: 23px 38px,bottom right;
 }
 nav {
     
@@ -215,4 +218,44 @@ nav .menu a{
 }
 .resume-container hr {
     margin: 30px 0;
+}
+.footer-container {
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    gap: 117px; 
+    margin: 0 auto;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.footer-container p {
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container input[type="text"], .footer-container textarea {
+    width: 461px;
+    padding: 18px 31px;
+    background-color: white;
+    border: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    color: #757575;
+}
+.social img {
+    margin-right: 24px;
+} 
+footer {
+    background-color: #fff8f3 ;
+    max-height: 780px;
+    margin-top: 123px;
+    padding: 130px 0;
 }
